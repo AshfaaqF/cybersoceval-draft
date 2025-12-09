@@ -11,7 +11,7 @@ We evaluated various LLMs—ranging from open-source to proprietary security-dom
 
 A key finding is that highly structured encoding formats (such as TOON or Knowledge Graphs) did not provide a consistent performance lift over standard inputs, illustrating a **"No Free Lunch"** outcome for data representation in this specific domain.
 
-![Open-source LLM: CyberSOCEval- Malware Reasoning Benchmark](cybersoceval_benchmark_vertical_custom_colors.png)
+![Open-source LLM: CyberSOCEval- Malware Reasoning Benchmark](assets/infograph.png)
 
 ---
 
@@ -71,7 +71,7 @@ The Malware Reasoning task presents a significant challenge to current models, w
 ![Open-source LLM: CyberSOCEval- Malware Reasoning Benchmark](assets/open-source_v1.png)
 
 
-### The "No Free Lunch" Principle with Formats
+### The No Free Lunch Principle with Formats
 
 The most significant finding is that **structured encoding provided no consistent lift**. 
 * **GLM Family:** The standard **JSON** format (35.47%) slightly outperformed the highly structured TOON (34.86%) and Graph (32.34%) formats.
@@ -94,7 +94,7 @@ We evaluated the **Cisco 8b Instruct** model, which is specifically fine-tuned f
 ## 6. References
 
 1.  **CyberSocEval Benchmark**
-    * *Paper:* [CyberSOCEval: Benchmarking LLMs Capabilities for Malware Analysis and Threat Intelligence Reasoning]
+    * *Paper:* CyberSOCEval: Benchmarking LLMs Capabilities for Malware Analysis and Threat Intelligence Reasoning
     * *Link:* [https://arxiv.org/pdf/2509.20166 ](https://arxiv.org/pdf/2509.20166)
 
 2.  **Token-Oriented Object Notation (TOON)**
