@@ -103,6 +103,13 @@ A notable finding is the impressive performance of open-source models. The **GLM
 
 We evaluated the **Cisco 8b Instruct** model, which is specifically fine-tuned for the security domain. Despite this domain specialization, it consistently performed poorly across all encoding formats (ranging from 13.79% to 16.42%). This indicates that while domain knowledge is necessary, smaller parameter models may lack the raw **reasoning horsepower** required for complex malware investigation.
 
+### 📈 Performance by Question Difficulty
+
+Following the methodology of the original CyberSOCEval paper (Figure 8), we analyzed model performance across **Easy**, **Medium**, and **Hard** question categories. The results reveal a clear pattern: **all models experience significant accuracy drops as question difficulty increases**. While GLM-4.6 leads on easy questions (39%), models like DeepSeek-V3.1-Terminus and MiniMax-M2 show more consistent performance across difficulties—suggesting that **reasoning depth matters more than surface-level accuracy**.
+
+![Accuracy by Difficulty Level](assets/easy-med-hard.png)
+**Figure 2: Model Performance by Question Difficulty (Easy/Medium/Hard)**
+
 ---
 
 ## 📚 6. References
