@@ -62,6 +62,7 @@ The following table presents the accuracy benchmarks across different model fami
 | GLM-4.6 | TOON | 34.86% |
 | GLM-4.6 | Markdown | 33.16% |
 | GLM-4.6 | Graph | 32.34% |
+| Kimi 2 Thinking | JSON | 32.67% |
 | Claude 3.5 Sonnet | Graph | 31.36% |
 | Claude 3.5 Sonnet | TOON | 29.72% |
 | Claude 3.5 Sonnet | JSON | 29.39% |
@@ -73,7 +74,7 @@ The following table presents the accuracy benchmarks across different model fami
 | Cisco 8b Instruct | JSON | 16.42% |
 | Cisco 8b Instruct | Graph | 16.42% |
 | Cisco 8b Instruct | Markdown | 13.79% |
-| Kimi 2 Thinking | JSON | 16.09% |
+
 
 ---
 
