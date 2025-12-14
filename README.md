@@ -8,19 +8,12 @@
 **Priam is attacking one of the most formidable challenges in automated security: CyberSOCEval.**
 
 🏗️ **Building on the Foundation**
+
 Leveraging the groundwork laid by **Meta and CrowdStrike** in their recent [landmark paper](https://arxiv.org/pdf/2509.20166), we are pushing the boundaries of what Large Language Models can achieve in the Security Operations Center. We specifically targeted **Task 1: Malware Investigation**, a domain that demands far more than simple pattern matching.
 
-🏆 **Current Performance Ceiling**
-Through rigorous experimentation with a variety of advanced techniques, **we have identified the current performance ceiling of open-source models to be 35.47%**, achieved by the **GLM-4.6** model.
-
 💡 **Key Insight: "No Free Lunch"**
-Our research reveals a critical reality: there is **"No Free Lunch"** when it comes to data formatting.
-* We experimented with sophisticated encodings like **TOON** 📦 and **Knowledge Graphs** 🕸️ to beat the benchmark.
-* **The Verdict:** Raw reasoning power currently outweighs clever prompt engineering.
 
-🔥 **What's Next?**
-We are not stopping here. We are now actively experimenting with even more advanced techniques to **shatter this ceiling**.
-
+Our research reveals a critical reality: there is **"No Free Lunch"** when it comes to data formatting. We experimented with sophisticated encodings like **TOON** 📦 and **Knowledge Graphs** 🕸️ to beat the benchmark.
 
 
 ![Infograph: CyberSOCEval- Malware Reasoning Benchmark](assets/infograph-2.png)
